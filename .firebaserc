@@ -1,13 +1,4 @@
 {
-  "targets": {
-    "angular-api-85e7a": {
-      "hosting": {
-        "angular-api": [
-          "angular-api-85e7a"
-        ]
-      }
-    }
-  },
   "projects": {
     "default": "angular-api-85e7a"
   }
