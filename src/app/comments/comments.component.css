@@ -1,5 +1,9 @@
+#commentsContainer {
+    height: 100%;
+}
 
 table {
+    background-color: rgba(102, 0, 102, 0.15);
     width: 40%;
     margin: 5vh auto;
     border: 1px solid black;
@@ -7,8 +11,14 @@ table {
     line-height: 35px;
     padding: 20px;
 }
+
+table:hover {
+    box-shadow: 2px 2px 1px;
+    font-weight: bold;
+}
+
 th {
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid black;
 
 }

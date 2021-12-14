@@ -5,11 +5,11 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class CommentService {
+export class StockService {
 
   constructor(private http: HttpClient) { }
 
-  getComments(): Observable<any> {
-    return this.http.get('https://jsonplaceholder.typicode.com/posts/1/comments');
+  getStocks(): Observable<any> {
+    return this.http.get('https://angular-stocks-api-default-rtdb.firebaseio.com/stocks.json');
   }
 }

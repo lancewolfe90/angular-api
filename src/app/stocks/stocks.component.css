@@ -1,0 +1,17 @@
+
+#stocksContainer {
+    min-height: 100vh;
+}
+table {
+    margin: auto;
+    width: 75%;
+}
+
+tr:hover {
+    box-shadow: 2px 2px 1px;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(194, 194, 194);
+}

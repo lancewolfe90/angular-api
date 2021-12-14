@@ -1,0 +1,19 @@
+<h2>The Stocks</h2>
+<div id="stocksContainer">
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Symbol</th>
+        <th>Price</th>
+        <th>Volume</th>
+    </tr>
+    <tr *ngFor="let stock of stocks">
+        <td>{{stock.id}}</td>
+        <td>{{stock.name}}</td>
+        <td>{{stock.symbol}}</td>
+        <td>{{stock.price}}</td>
+        <td>{{stock.volume}}</td>
+    </tr>
+</table>
+</div>

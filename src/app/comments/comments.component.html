@@ -1,7 +1,9 @@
+<h2>The Comments</h2>
+<div id="commentsContainer">
 <table *ngFor="let comment of comments">
     <tr id="lineRow">
         <th id="commentId">{{comment.id}}</th>
-        <th>{{comment.name}}</th>
+        <th>{{comment.name.toUpperCase()}}</th>
     </tr>
 
     <tr >
@@ -11,3 +13,4 @@
         <td colspan="2"><span class="quotes">“</span>{{comment.body}}<span class="quotes">”</span></td>
     </tr>
 </table>
+</div>
