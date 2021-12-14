@@ -1,10 +1,15 @@
 <p>comments works!</p>
-<div *ngFor="let comment of comments" id="commentContainer">
-    <div>{{comment.id}} - {{comment.name}}</div>
-    <div id="email">
-        {{comment.email}}
-    </div>
-    <div id="commentText">
-        {{comment.body}}
-    </div>
-</div>
+
+<table *ngFor="let comment of comments">
+    <tr id="lineRow">
+        <th id="commentId">{{comment.id}}</th>
+        <th>{{comment.name}}</th>
+    </tr>
+
+    <tr >
+        <td colspan="2">{{comment.email}}</td>
+    </tr>
+    <tr>
+        <td colspan="2"><span class="quotes">“</span>{{comment.body}}<span class="quotes">”</span></td>
+    </tr>
+</table>

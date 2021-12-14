@@ -1,5 +1,24 @@
-#commentContainer {
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
+
+table {
+    width: 40%;
+    margin: 5vh auto;
+    border: 1px solid black;
+    font-size: 15px;
+    line-height: 35px;
+    padding: 20px;
+}
+th {
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+
+td {
+    text-align: center
+}
+#commentId {
+    text-align: left;
+}
+.quotes {
+    font-size: 30px;
 }
